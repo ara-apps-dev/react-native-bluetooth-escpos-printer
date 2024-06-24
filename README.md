@@ -19,7 +19,7 @@ npm install @camiloarc/react-native-bluetooth-escpos-printer --save
 
 Or install via github
 ```bash
-npm install https://github.com/januslo/react-native-bluetooth-escpos-printer.git --save
+npm install https://github.com/CamiloARC/react-native-bluetooth-escpos-printer.git --save
 ```
 
 ### Step2 ###
@@ -34,15 +34,15 @@ Ensure your build files match the following requirements:
 1. (React Native 0.59 and lower) Define the *`react-native-bluetooth-escpos-printer`* project in *`android/settings.gradle`*:
 
 ```
-include ':react-native-bluetooth-escpos-printer'
-project(':react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/@camiloarc/react-native-bluetooth-escpos-printer/android')
+include ':camiloarc_react-native-bluetooth-escpos-printer'
+project(':camiloarc_react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/@camiloarc/react-native-bluetooth-escpos-printer/android')
 ```
 2. (React Native 0.59 and lower) Add the *`react-native-bluetooth-escpos-printer`* as an dependency of your app in *`android/app/build.gradle`*:
 ```
 ...
 dependencies {
   ...
-  implementation project(':react-native-bluetooth-escpos-printer')
+  implementation project(':camiloarc_react-native-bluetooth-escpos-printer')
 }
 ```
 
